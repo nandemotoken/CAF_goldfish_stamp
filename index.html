@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #ffffff;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>GoldFishStamp</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike+Angular">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Butcherman">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caesar+Dressing">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: url(&quot;assets/img/entrance_o3.png&quot;) center / auto no-repeat;">
+    <div class="row">
+        <div class="col">
+            <h1 style="text-align: center;font-family: 'Abril Fatface', cursive;color: rgb(252,140,214);"><strong>Crypto Art Fes Visitor Stamp</strong></h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div style="text-align: center;"><img src="assets/img/goldfish.jpg" style="width: 500px;"></div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="wallet-popup">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">ウォレットを選択</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div style="text-align: center;"><a href="javascript:loadmm_gasfree()">
+                            <p>MetaMask + mint.nandemotoken.com&nbsp;&nbsp;<img src="assets/img/metamask.png" width="30px"></p>
+                        </a></div>
+                </div>
+                <div class="modal-footer">
+                    <p>ウォレットを選択してください</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-xl-flex justify-content-xl-center">
+            <div style="background: #ffffff;text-align: center;border-color: rgb(20,212,229);">
+                <h1 style="text-align: center;font-family: 'Abril Fatface', cursive;color: rgb(252,140,214);font-size: 38px;">Official mascot GoldFish NFT<br></h1>
+                <p style="color: rgb(0,0,0);">このサイトではNFTアートスタンプを配布しています。<br>有名作家の展示会において図録が配布されるように、<br>ミュージアムショップでグッズが配布されるように、<br>ここに来た『記念』を入手することができます。<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div style="text-align: center;"><a class="btn btn-dark" role="button" style="color: rgb(252,140,214);margin-bottom: 30px;width: 300px;text-align: center;border: 5px solid rgb(252,140,214);background: rgb(255,255,255);margin-top: 10px;" href="javascript:walletmodal()">NFTスタンプを入手する<br></a></div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="myinfo">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myinfohead">NFTを発行中…</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body" style="text-align: center;">
+                    <p style="border: 1px solid var(--blue);width: 300px;margin-left: 70px;">ブロックチェーンの確認方法</p><a href="javascript:explorer()"><img src="assets/img/maticexplorer.png" style="width: 200px;"></a><a href="javascript:opensea()" style="margin-left: 30px;"><img src="assets/img/e68241c-opensea-logo-flat-colored-blue.png" style="width: 200px;"></a>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/abi.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
